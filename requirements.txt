@@ -1,0 +1,7 @@
+# Nucleo: SIN dependencias (solo stdlib). La demo, el scorer, el firewall, la
+# atribucion causal y los tests corren con Python 3.10+ sin instalar nada.
+
+# --- extras opcionales, solo para clientes LLM reales ---
+# google-genai>=0.3.0      # cliente Gemini  (make_client("gemini"))
+# openai>=1.30.0           # cliente OpenAI-compatible (make_client("openai"))
+# anthropic>=0.40.0        # cliente Anthropic (make_client("anthropic"))

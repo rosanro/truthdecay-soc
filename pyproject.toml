@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "truthdecay-soc"
+version = "0.6.0"
+description = "Benchmark causal de envenenamiento de creencias y persistencia en memoria de agentes SOC, con Epistemic Firewall."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = []          # el nucleo no requiere nada
+
+[project.optional-dependencies]
+gemini = ["google-genai>=0.3.0"]
+openai = ["openai>=1.30.0"]
+anthropic = ["anthropic>=0.40.0"]
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["core", "agent", "firewall", "scorer", "experiments", "cases"]
+
+[tool.setuptools.package-data]
+cases = ["*.json", "campaigns/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

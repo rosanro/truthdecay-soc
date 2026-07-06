@@ -1,0 +1,72 @@
+{
+  "project": "TruthDecay-SOC",
+  "client": "mock:credulous",
+  "pairs": [
+    "c2_01",
+    "c3_01",
+    "i1_01",
+    "p1_01",
+    "p2_01",
+    "s1_01",
+    "v1_01"
+  ],
+  "n_pairs": 7,
+  "reps": 1,
+  "top_k": null,
+  "system_mode": "aware",
+  "structured": true,
+  "timestamp_utc": "2026-07-05T15:27:04.076082+00:00",
+  "python": "3.12.3",
+  "sdk_versions": {
+    "google-genai": null,
+    "openai": null,
+    "anthropic": null
+  },
+  "git": null,
+  "causal_aggregate": {
+    "H-A (efecto inmediato) atribuible": {
+      "frac": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "H-C (persistencia) atribuible": {
+      "frac": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "C7-control no comprometido (causalidad)": {
+      "frac": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "H-D1a (firewall contiene)": {
+      "frac": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "H-D1b (contencion correctiva, no solo abstencion)": {
+      "frac": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "PPR (agregado, pares con lavado)": {
+      "frac": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ],
+      "n_pairs": 7
+    }
+  },
+  "note": "Cliente mock: fixture de tuberia, tasas 0/1 por construccion; no es evidencia empirica."
+}
