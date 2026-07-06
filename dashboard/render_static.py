@@ -142,8 +142,9 @@ def build_html(seed, probe, res):
 <h2>Metricas (scorer determinista, desde el ledger)</h2>
 <table>{head}{body}</table>
 <h2>Veredicto causal (but-for)</h2><table>{ver}</table>
-<p class="foot">Generado con cliente mock (fixture de integracion). Las tasas 0/1 son por
-construccion; la medicion empirica se obtiene con un LLM real (--client gemini).</p>
+<p class="foot">Dashboard generado por TruthDecay-SOC. El cliente y la configuracion estan
+en el manifest del directorio; interpretar resultados junto con parse_ok_rate, C0 y puertas
+de validez.</p>
 </div></body></html>"""
 
 
