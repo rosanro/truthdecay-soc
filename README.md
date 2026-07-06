@@ -7,8 +7,8 @@ falso con procedencia aparente puede (1) cambiar una decisión de un agente SOC,
 controlando decisiones tras borrar la fuente original** (persistencia). Y si un
 *Epistemic Firewall* lo contiene.
 
-> El malware del mundo *agentic* puede no ser código, sino una creencia falsa con
-> suficiente procedencia aparente para cambiar una acción.
+> En agentes con RAG y memoria, una premisa factual falsa puede 
+> cambiar decisiones SOC sin violar permisos ni ejecutar acciones no autorizadas.
 
 ## Diseño causal y controles
 
