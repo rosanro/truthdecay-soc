@@ -12,8 +12,7 @@ controlando decisiones tras borrar la fuente original** (persistencia). Y si un
 
 ## Diseño causal y controles
 
-El andamiaje anterior decidía con `if veneno: return comprometido`: cableaba el
-resultado. Aquí no. Dos garantías, ambas ejecutables como test:
+Dos garantías, ambas ejecutables como test:
 
 1. **Frontera agente/ledger.** El agente solo ve una vista *redactada*
    (`doc_id`, `source_type`, `content`). Nunca ve la autoridad numérica, `is_canonical`
